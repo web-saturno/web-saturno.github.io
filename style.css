@@ -1,34 +1,21 @@
 html {
 	font-size: 125%;
-	background-image: linear-gradient( to right, #9792e3, #392759);
+	/* background-image: linear-gradient(to right, #9792e3, #392759);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+	background-color: white;
+	color: black;
     width: 100%;
     height: 100%;
 	}
 
+b {
+	color: #9792e3;
+	}	
+	
 body {
 	font-family: "Arial", sans-serif;
-	color: white;
 	margin: 0;
-	}
-	
-.header {
-	font-size: 2em;
-	font-weight: bold;
-	width: 100%;
-	padding: 1em;
-	background-color: orange;
-	color: white;
-	}
-	
-.title {
-	font-size: 2em;
-	font-weight: bold;
-	width: 100%;
-	color: orange;
-	padding: 1em;
-	border-bottom: 10px solid orange;
 	}
 
 .main-cont {
@@ -43,6 +30,7 @@ body {
 	font-size: 6em;
 	font-family: 'Kanit', sans-serif;
 	font-weight: 900;
+	color: #9792e3;
 	margin-bottom: -0.5em;
 	}
 	
@@ -56,8 +44,7 @@ p {
 	}
 
 .button {
-	border: 2px solid white;
-	color: white;
+	border: 2px solid black;
 	padding: 1em;
 	text-align: center;
 	text-decoration: none;
@@ -80,7 +67,7 @@ p {
 	}
 	
 a {
-	color: white;
+	color: black;
 	}
 	
 .about {
