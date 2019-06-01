@@ -43,6 +43,7 @@ body {
 	font-size: 6em;
 	font-family: 'Kanit', sans-serif;
 	font-weight: 900;
+	margin-bottom: -0.5em;
 	}
 	
 p {
@@ -50,6 +51,8 @@ p {
 	font-size: 1.5em;
 	font-family: 'Kanit', sans-serif;
 	font-weight: 200;
+	margin-bottom: 0.5em;
+	margin: 1em;
 	}
 
 .button {
@@ -65,3 +68,17 @@ p {
 	position: absolute;
 	transform: translate(-50%);
 	left: 50%;
+	}
+	
+.footer {
+	font-size: 1em;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: right;
+	margin: 0.5em;
+	}
+	
+a {
+	color: white;
+	}
