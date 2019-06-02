@@ -58,3 +58,13 @@ p {
 	font-weight: bold;
 	text-decoration: none;
 	}
+
+audio {
+	margin-top: 1em;
+	}
+	
+img {
+	margin-top: 1em;
+	max-width: 100%;
+	height: auto;
+	}
