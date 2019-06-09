@@ -8,19 +8,24 @@ body {
 	font-family: "Arial", sans-serif;
 	color: black;
 	margin: 0;
+	background-color: #00BFA5;
 	}
 	
 b {
-	color: #9792e3;
+	color: #00BFA5;
+	}
+
+a {
+	color: #00BFA5;
 	}
 	
 .header {
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bold;
-	padding: 0.5em;			
+	padding: 0.5em;		
 	font-family: 'Kanit', sans-serif;
-	font-weight: 900;
-	color: #9792e3;
+	font-weight: 800;
+	color: white;
 	border-bottom: 2px solid black;
 	}
 	
@@ -28,6 +33,8 @@ p {
 	font-size: 1em;
 	font-weight: normal;
 	line-height: 1.5;
+	margin-top: 0;
+	word-wrap: break-word;
 	}
 	
 .cont {
@@ -39,10 +46,24 @@ p {
 	
 .title {
 	font-size: 2em;
-	color: #9792e3;
+	color: white;
+	font-family: 'Kanit', sans-serif;
 	border-bottom: 2px solid black;
 	font-weight: bold;
 	margin-top: 1em;
+	padding-bottom: 1em;
+	}
+	
+.subtitle {
+	font-family: "Arial", sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: .5em;
+	}
+
+.follow {
+	text-decoration: underline;
+	cursor: no-avalible;
 	}
 	
 .publi {
@@ -50,11 +71,12 @@ p {
 	margin-top: 1em;
 	padding: 1em;
 	padding-bottom: 0;
+	background-color: white;
 	}
 	
 .user {
 	font-family: 'Kanit', sans-serif;
-	color: #9792e3;
+	color: #00BFA5;
 	font-weight: bold;
 	text-decoration: none;
 	}
@@ -62,6 +84,7 @@ p {
 audio {
 	margin-top: 1em;
 	width: 100%;
+	color: black;
 	}
 	
 img {
