@@ -63,7 +63,7 @@ p {
 
 .follow {
 	text-decoration: underline;
-	cursor: no-avalible;
+	cursor: not-allowed;
 	}
 	
 .publi {
